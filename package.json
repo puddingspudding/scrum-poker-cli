@@ -1,0 +1,24 @@
+{
+  "name": "scrumpoker",
+  "version": "0.1.0",
+  "keywords": ["scrum", "poker"],
+  "author": "Philip Strecker",
+  "description": "Scrum Poker CLI",
+  "license": "MIT",
+  "dependencies": {
+    "scrum-poker": "git+ssh://git@github.com/puddingspudding/scrum-poker.git",
+    "scrum-poker-frontend": "git+ssh://git@github.com/puddingspudding/scrum-poker-frontend.git"
+  },
+  "files": [
+    "public"
+  ],
+  "scripts": {
+    "prepack": "cd node_modules/scrum-poker-frontend && npm install && ng build && mv dist ../../public"
+  },
+  "bin": {
+    "scrumpoker": "node_modules/scrum-poker/server.js"
+  },
+  "bundleDependencies": [
+    "scrum-poker"
+  ]
+}

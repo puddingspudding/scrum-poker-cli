@@ -8,7 +8,7 @@
   "author": "Philip Strecker",
   "description": "Scrum Poker CLI",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "scrum-poker": "git+ssh://git@github.com/puddingspudding/scrum-poker.git",
     "scrum-poker-frontend": "git+ssh://git@github.com/puddingspudding/scrum-poker-frontend.git"
   },
@@ -22,7 +22,7 @@
   "bin": {
     "scrumpoker": "node_modules/scrum-poker/server.js"
   },
-  "bundleDependencies": [
+  "bundledDependencies": [
     "scrum-poker"
   ]
 }

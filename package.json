@@ -6,7 +6,7 @@
     "poker"
   ],
   "author": "Philip Strecker",
-  "description": "Scrum Poker CLI",
+  "description": "Scrum Poker WebApp",
   "homepage": "https://github.com/puddingspudding/scrum-poker-cli",
   "license": "MIT",
   "devDependencies": {

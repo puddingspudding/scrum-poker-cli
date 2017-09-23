@@ -1,22 +1,24 @@
 # Scrum Poker
 
-## Build
 ```
-npm install
-```
-
-```
-npm pack
+npm -g install scrumpoker
 ```
 
-## Install
+Open [in browser](http://localhost:3000/ "Scrumpoker")
+
+
+## Config
 
 ```
-npm intall -g *.tgz
-```
-
-## Run
-
-```
-scrumpoker
+/usr/local/lib/node_modules/scrumpoker/config.json
+{
+    "host": "0.0.0.0",
+    "port": 3000,
+    "data": {
+        "dir": "."
+    },
+    "log": {
+        "dir": "."
+    }
+}
 ```

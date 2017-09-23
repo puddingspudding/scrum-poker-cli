@@ -1,12 +1,13 @@
 {
   "name": "scrumpoker",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "keywords": [
     "scrum",
     "poker"
   ],
   "author": "Philip Strecker",
   "description": "Scrum Poker CLI",
+  "homepage": "https://github.com/puddingspudding/scrum-poker-cli",
   "license": "MIT",
   "devDependencies": {
     "scrum-poker": "git+ssh://git@github.com/puddingspudding/scrum-poker.git",

@@ -1,7 +1,13 @@
 # Scrum Poker
 
+## Install
 ```
 npm -g install scrumpoker
+```
+
+## Run
+```
+scrumpoker
 ```
 
 Open [in browser](http://localhost:3000/ "Scrumpoker")
